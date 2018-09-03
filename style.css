@@ -1,0 +1,68 @@
+
+.contenedor-principal{
+	padding: 20px;
+	text-align: center;
+}
+
+button{
+	border-radius: 5px;
+}
+button:hover{
+	outline: none;
+	box-shadow: 1px 1px 1px black;
+	cursor: pointer;
+}
+
+button:active{
+	background-color: #555;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.pantalla table{
+	margin-top: 40px;
+	width: 100%;
+}
+
+.pantallas{
+	text-align: center;
+}
+
+.pantalla{
+	display: none;
+}
+
+.posts:even{
+	background-color: #eee;
+}
+
+.posts:odd{
+	background-color: #aaa;
+}
+
+.posts{
+	height: 40px;
+	padding-left: 5px;
+}
+
+.posts:hover{
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+.inactive{
+	display: none;
+}
+
+.mensaje-error{
+	color: red;
+}
+
+.contenedor-info label{
+	font-weight: bolder;
+}
+
+.titulo{
+	font-size: 20px;
+	font-weight: bold;
+}
