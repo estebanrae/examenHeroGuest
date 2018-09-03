@@ -67,11 +67,12 @@ function init($scope){
 }
 
 function insertarComentarios($scope, id){
-	fetch('https://jsonplaceholder.typicode.com/id/comments')
+	fetch('https://jsonplaceholder.typicode.com/posts/' + id +'/comments')
   .then(function(response){
   	return response.json();
   }).then(function(J){
   	$scope.comentarios = J;
   	$scope.$apply();
+  	console.log(J);
   });
 }

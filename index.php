@@ -37,7 +37,8 @@
 				<p ng-bind="contenidoPost"></p>
 			</div>
 			<div class="contenedor-comentarios">
-				<p ng-repeat="x in comentarios"></p>
+				<label>Comentarios</label>
+				<p ng-repeat="x in comentarios">{{x.name}}</p>
 			</div>
 		</div><!-- pantalla-2 -->
 		<div class="pantalla nuevo">
